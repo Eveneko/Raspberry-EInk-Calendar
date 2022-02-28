@@ -1,0 +1,7 @@
+{
+    "width": 800,
+    "height": 480,
+    "routate_angle": 0,
+    "html_template": "reminder_template.html",
+    "html_file": "reminder.html"
+}

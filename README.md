@@ -58,13 +58,15 @@ cd WiringPi
 - 安装python函数库
 
 ```
-# python3
-sudo apt-get update
-sudo apt-get install python3-pip
-sudo apt-get install python3-pil
-sudo apt-get install python3-numpy
-sudo pip3 install RPi.GPIO
-sudo pip3 install spidev
+python3 -m pip install -r requirements.txt
+```
+
+> selenium 安装3.x，4.x目前存在问题
+
+- 安装chromium-chromedriver
+
+```
+sudo apt-get install chromium-chromedriver
 ```
 
 ### Web Server
@@ -82,4 +84,5 @@ sudo pip3 install spidev
   - https://www.waveshare.net/wiki/7.5inch_e-Paper_HAT_(B)
 - project
   - https://github.com/speedyg0nz/MagInkCal
+  - https://github.com/aceisace/Inkycal
   - https://github.com/zli117/EInk-Calendar
